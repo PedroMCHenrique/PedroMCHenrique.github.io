@@ -3,10 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <title>Portifólio de Pedro Henrique</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <style>
+            body{
+                font-family: lato, Arial;
+                background-color: #FAFAD2;
+            }
+            #who{
+                font-family: "roboto condensed";
+            }
+            p, #who{
+                background-color: #EEE8AA;
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .my-skills{
+                font-size: 20px;
+                text-decoration: underline;
+
+            }
+            .links a{
+                text-decoration: none;
+            }
+            .firstSkill{
+                font-size: 28px;
+            }
+            .secondSkill{
+                font-size: 24px;
+            }
+            .thirdSkill{
+                font-size: 20px;
+            }
+            .fourthSkill{
+                font-size: 18px;
+            }
+        </style>
     </head>
 
     <body>
-        <ul>
+        <ul class="links">
            <li> <a href="#foto">Foto Perfil</a> </li>
             <li><a href="#who">Quem sou eu</a> </li>
             <li><a href="#skills">Habilidades</a> </li>
@@ -14,14 +52,15 @@
         </ul>
         <h1 id="foto">Pedro Manuel de Carvalho Henrique</h1>
         <img src="https://scontent.fsod4-1.fna.fbcdn.net/v/t1.0-9/13920803_1087983484628478_7315500789598294876_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeFKaUaT2g8YvRxJvk1eXKFCowhofFf7xyejCGh8V_vHJxHSUJ-dB5z-q0hm4jWlCn4uJPPiuyXiEN1BmzLuYgxA&_nc_ohc=kGJY2j_PBssAX_EkZe1&_nc_ht=scontent.fsod4-1.fna&oh=57e467548a480978e23bc281239e1996&oe=5FDBB290" width="400px" id="#foto">
-        <p><em>Mineiro no documento, Carioca no coração !</em></p>
-        <h4 id="who">Nascido em Manhumirim - MG mas, passei toda a minha vida no RJ. Estudante de desenvolvimento de software pela Trybe.</h4>
-        <ul>
+        <p><em>Mineiro no documento. Carioca no coração!</em></p>
+        <h4 id="who">Nascido em Manhumirim - MG, mas passei toda a minha vida no RJ.<br>
+            Estudante de desenvolvimento de software pela Trybe.</h4>
+        <ul class="my-skills">
            <h2 id="skills">Habilidades</h2>
-            <li><strong>Professor de Lingua Inglesa e Literatura</strong></li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Técnico de instalação de CFTV</li>
+            <li class="firstSkill"><strong>Professor de Lingua Inglesa e Literatura</strong></li>
+            <li class="secondSkill">Técnico de instalação de CFTV</li>
+            <li class="thirdSkill">HTML</li>
+            <li class="forthSkill">CSS</li>
         </ul>
     
     </body>
